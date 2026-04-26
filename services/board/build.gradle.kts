@@ -9,5 +9,4 @@ dependencies {
     api(project(boardApplication))
     api(project(boardRdbAdapter))
     api(project(boardWebMvcAdapter))
-    api(project(boardRestClient))
 }
