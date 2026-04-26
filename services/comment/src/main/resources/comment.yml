@@ -1,5 +1,0 @@
-spring:
-  config:
-    import:
-      - properties/db/comment.database.yml
-#      - comment-web.yml
