@@ -10,6 +10,11 @@ include(
     ":exception-handler-core",
     ":cors-api",
     ":cors-webmvc",
+    ":security-blolet-jwt-filter",
+    ":security-jwt-api",
+    ":security-jwt-issuer",
+    ":security-jwt-parser",
+    ":security-password",
     ":snowflake-id-api",
     ":snowflake-id-hibernate",
     ":client-api",
@@ -17,17 +22,22 @@ include(
     ":redis-api",
     ":redis-template",
     ":redis-cache",
+    ":upload-image-api",
+    ":upload-image-local",
 )
 
 project(":time-util").projectDir = core["time-util"]!!
 project(":jpa-core").projectDir = core["jpa-core"]!!
 project(":exception-handler-core").projectDir = core["exception-handler-core"]!!
-project(":cors-webmvc").projectDir = core["nettee-cors-webmvc"]!!
-project(":cors-api").projectDir = core["nettee-cors-api"]!!
-project(":snowflake-id-api").projectDir = core["nettee-snowflake-id-api"]!!
-project(":snowflake-id-hibernate").projectDir = core["nettee-snowflake-id-hibernate"]!!
-project(":client-api").projectDir = core["nettee-client-api"]!!
-project(":rest-client").projectDir = core["nettee-rest-client"]!!
-project(":redis-api").projectDir = core["nettee-redis-api"]!!
-project(":redis-template").projectDir = core["nettee-redis-template"]!!
-project(":redis-cache").projectDir = core["nettee-redis-cache"]!!
+project(":cors-webmvc").projectDir = core["cors-webmvc"]!!
+project(":cors-api").projectDir = core["cors-api"]!!
+project(":security-blolet-jwt-filter").projectDir = core["jwt-filter"]!!
+project(":security-jwt-api").projectDir = core["jwt-api"]!!
+project(":security-jwt-issuer").projectDir = core["jwt-issuer"]!!
+project(":security-jwt-parser").projectDir = core["jwt-parser"]!!
+project(":security-password").projectDir = core["password"]!!
+project(":snowflake-id-api").projectDir = core["snowflake-id-api"]!!
+project(":snowflake-id-hibernate").projectDir = core["snowflake-id-hibernate"]!!
+project(":redis-api").projectDir = core["redis-api"]!!
+project(":redis-template").projectDir = core["redis-template"]!!
+project(":redis-cache").projectDir = core["redis-cache"]!!

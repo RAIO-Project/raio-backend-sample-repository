@@ -101,7 +101,8 @@ flowchart TB
 <br />
 
 ```
-1. git clone git@github.com:nettee-space/backend-sample-multi-module.git
+0. Please set up the Docker environment and make sure to start the Docker Engine!
+1. git clone git@github.com:RAIO-Project/raio-backend-sample-repository.git
 2. ./compose-monolith up -d
   (권한 필요 시 chmod +x compose-monolith)
 3. Please include 'local' profile to your active profiles.
