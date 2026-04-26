@@ -7,7 +7,7 @@
 
 # Introduction.
 
-이 샘플 프로젝트는 DDD 철학에 걸맞는 헥사고날 아키텍처 기반으로 멀티 모듈로 구현되었습니다.  
+이 샘플 프로젝트는 DDD 철학에 걸맞는 (포트어댑트)헥사고날 아키텍처 기반으로 멀티 모듈로 구현되었습니다.  
 
 \*폴더 및 모듈 네이밍과 구조는 수정되고 있습니다.
 
@@ -194,19 +194,6 @@ flowchart TB
     ```
   
 - **주요 브랜치에 병합 전 Pull Request(PR)는 필수입니다.**
-  - Pull Request를 생성할 때, 최소 2명의 reviewer를 지정해야 합니다.
-  - 관리자([@merge-simpson](https://github.com/merge-simpson), [@silberbullet](https://github.com/silberbullet))는 리뷰 없이 병합이 가능합니다.
-  - **코드에 대한 모든 논의(conversations)가 해결(resolved)되지 않은 상태에서는 Pull Request를 병합할 수 없습니다.**
-    <details>
-    <summary>conversations 예시 보기</summary>
-    
-    1. @silberbullet 님이 pull request 생성 후, reviewer를 @merge-simpson 에게 신청하였습니다.  
-    2. @merge-simpson 님은 코드 수정을 위해 comment를 남겼습니다.  
-    3. @silberbullet 님은 해당 코드를 수정하여 push 후 @merge-simpson 님이 남긴 comment에 수정사항을 적어 놓았습니다.  
-    4. @merge-simpson "Resolve conversation" 버튼을 클릭하여 피드백이 해결되었음을 표시합니다.  
-    5. 비로소 @silberbullet 님은 코드 병합이 가능합니다.  
-    
-    </details>
 
 ## Commit Message
 
@@ -228,8 +215,3 @@ flowchart TB
 - **test**: 테스트 코드 추가 또는 수정
 - **chore**: 코드의 구조나 동작에 영향을 주지 않는 기타 작업
 - **build**: 빌드 관련 작업, 패키지 매니저 설정 등
-
-# Contact.
-
-- [:octocat: Merge Simpson](https://github.com/merge-simpson)
-- [:octocat: Silberbullet](https://github.com/silberbullet) (No silver bullet)
